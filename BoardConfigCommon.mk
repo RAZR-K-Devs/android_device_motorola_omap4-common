@@ -70,7 +70,7 @@ TARGET_KRAIT_BIONIC_PLDSIZE := 64
 # Kernel/Module Build
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 TARGET_KERNEL_SOURCE := kernel/motorola/omap4-common
-TARGET_KERNEL_CONFIG := mapphone_OCE_defconfig
+TARGET_KERNEL_CONFIG := mapphone_mmi_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := mapphone_mmi_selinux_defconfig
 
 WLAN_MODULES:
@@ -228,10 +228,6 @@ BOARD_USES_SECURE_SERVICES := true
 BOARD_HAS_MAPPHONE_SWITCH := true
 USE_IPV6_ROUTE := true
 BOARD_RIL_NO_CELLINFOLIST := true
-
-+# Override healthd HAL to use charge_counter for 1%
-
-BOARD_HAL_STATIC_LIBRARIES := libhealthd.omap4
 
 # Override healthd HAL to use charge_counter for 1%
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.omap4
