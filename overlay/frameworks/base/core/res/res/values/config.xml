@@ -294,4 +294,3 @@
          for some cdma carriers -->
     <bool name="config_fetch_apn_from_omh_card">false</bool>
 </resources>
-

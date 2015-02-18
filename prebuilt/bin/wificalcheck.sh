@@ -7,3 +7,4 @@ if [ ! -f /data/misc/wifi/wl1271-nvs.bin -o ! -s /data/misc/wifi/wl1271-nvs.bin 
 
         wifical.sh
 fi
+
